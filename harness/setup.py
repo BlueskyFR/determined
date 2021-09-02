@@ -54,6 +54,7 @@ setup(
         # docker-compose has a requirement not properly propagated with semi-old pip installations;
         # so we expose that requirement here.
         "websocket-client<1",
+        "torchmetrics==0.5.0",
     ],
     zip_safe=False,
     entry_points={
